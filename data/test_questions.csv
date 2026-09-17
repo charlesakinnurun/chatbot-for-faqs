@@ -1,0 +1,110 @@
+﻿question,expected_ids
+How can I reset my password?,account_01
+I forgot my password,account_01
+I can't remember my password,account_01
+Reset my login details,account_01
+What steps do I follow to create a new password?,account_01;account_04
+Can I change my password,account_04
+I want a different password,account_04
+How can I update the email on my account,account_05
+Change my contact email,account_05
+I want to delete my profile completely,account_06
+Close my account permanently,account_06
+How do I get a new username,account_07
+Can I rename myself on the site,account_07
+What cards do you take,payments_01
+Which payment options are available,payments_01
+Add a new credit card to my wallet,payments_02
+Store my card for future use,payments_02
+My credit card got rejected,payments_03
+Why did my payment not go through,payments_03
+When do you take the money for an order,payments_04
+Am I charged immediately,payments_04
+Do you accept PayPal,payments_05
+Can I pay using my PayPal balance,payments_05
+How do I change my billing info,payments_06
+Edit my billing address,payments_06
+Can I pay in installments,payments_07
+Is there a pay later option,payments_07
+Where can I see the delivery progress for my purchase,orders_01;orders_02
+Track my package,orders_01
+Where's my order right now,orders_02
+Follow my parcel,orders_02
+Can I change my order after paying,orders_03
+Edit the items in my existing order,orders_03
+I want to cancel my purchase,orders_04
+Undo my order,orders_04
+I bought the wrong size by accident,orders_05
+The item I received is not what I ordered,orders_05
+How long until I receive my package,orders_06;shipping_02
+Estimate the arrival date of my delivery,orders_06;shipping_02
+How do I buy the same thing again,orders_07
+Reorder an item from my history,orders_07
+What do you charge for delivery,shipping_01
+Shipping fees,shipping_01
+How long is normal delivery time,shipping_02
+Standard delivery takes how many days,shipping_02
+Can I order from outside the country,shipping_03
+Do you deliver to Europe,shipping_03
+Is shipping free,shipping_04
+How can I get faster shipping,shipping_04
+Which regions do you deliver to,shipping_05
+Do you ship to Canada,shipping_05
+Fix the address on my shipment,shipping_06
+Edit my delivery location,shipping_06
+My parcel never showed up,shipping_07
+The package is missing,shipping_07
+Tell me about your return policy,returns_01
+What are the conditions for returning,returns_01
+How do I send an item back,returns_02
+Returning a product step by step,returns_02
+How many days can I return,returns_03
+Return window,returns_03
+I need my money back,returns_04
+How can I claim a refund,returns_04
+Swap for another size,returns_05
+Exchange this item,returns_05
+Can I send back reduced items,returns_06
+Are discounted products returnable,returns_06
+When does the refund hit my account,returns_07
+Refund processing time,returns_07
+Is my data protected,security_01
+Do you sell my information,security_01
+Turn on two factor authentication,security_02
+Set up two step verification,security_02
+I cannot get into my account,security_03
+Locked out of my profile,security_03
+Someone broke into my account,security_04
+My account was compromised,security_04
+Log me out from every device,security_05
+End all my sessions,security_05
+Why do you want me to verify myself,security_06
+I keep getting asked for a verification code,security_06
+Where can I forward a fake email,security_07
+Report a phishing email,security_07
+How do I talk to a support agent,general_01
+Contact customer care,general_01
+When are you guys available,general_02
+Support opening hours,general_02
+Show me your privacy terms,general_03
+Where is the privacy page,general_03
+Any discount for students,general_04
+Is there a student offer,general_04
+Join your mailing list,general_05
+Subscribe to the newsletter,general_05
+What does your warranty cover,general_06
+Is there a guarantee on products,general_06
+Help me find a present for my mom,general_07
+I do not know what to order,general_07
+What is the weather like today,
+Tell me a joke,
+Who won the football game last night,
+What is 25 times 4,
+Can you recommend a good book to read,
+When is the next lunar eclipse,
+What is my horoscope today,
+How old is the Eiffel Tower,
+What does your company do,
+Thanks for your help,
+How long does it take to learn Python,
+Can you predict tomorrow's stock prices,

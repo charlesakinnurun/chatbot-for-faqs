@@ -47,3 +47,4 @@ All reports will be handled with discretion and care.
 ## Attribution
 
 This Code of Conduct is based on community standards for open source projects and adapted for the **CodeAlpha Chatbot FOR FAQS** project.
+   

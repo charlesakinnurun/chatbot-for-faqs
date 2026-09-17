@@ -1,0 +1,110 @@
+question,best_id,best_score,top_ids,answered,fallback,expected_id_set,out_of_scope,expected_expanded
+How can I reset my password?,account_01,1.0,"['account_01', 'account_04', 'account_02']",True,False,"('account_01',)",False,"{'account_01', 'account_03', 'account_02'}"
+I forgot my password,account_02,0.8076670968754477,"['account_02', 'account_04', 'account_01']",True,False,"('account_01',)",False,"{'account_01', 'account_03', 'account_02'}"
+I can't remember my password,account_03,0.7129879986163752,"['account_03', 'account_04', 'account_01']",True,False,"('account_01',)",False,"{'account_01', 'account_03', 'account_02'}"
+Reset my login details,account_01,0.3663739548655872,"['account_01', 'account_03']",True,False,"('account_01',)",False,"{'account_01', 'account_03', 'account_02'}"
+What steps do I follow to create a new password?,orders_12,0.2964639049452289,"['orders_12', 'account_02', 'account_10']",False,True,"('account_01', 'account_04')",False,"{'account_01', 'account_04', 'account_02', 'account_11', 'account_03'}"
+Can I change my password,account_04,0.8463431462421093,"['account_04', 'account_07', 'account_01']",True,False,"('account_04',)",False,"{'account_04', 'account_11'}"
+I want a different password,account_11,0.7303160779669059,"['account_11', 'account_04', 'returns_04']",True,False,"('account_04',)",False,"{'account_04', 'account_11'}"
+How can I update the email on my account,account_05,0.669054741163807,"['account_05', 'account_09', 'tech_06']",True,False,"('account_05',)",False,"{'account_09', 'account_05'}"
+Change my contact email,account_09,0.3714012625267988,"['account_09', 'general_01', 'account_04']",True,False,"('account_05',)",False,"{'account_09', 'account_05'}"
+I want to delete my profile completely,account_06,0.5354413040636332,"['account_06', 'returns_04', 'account_11']",True,False,"('account_06',)",False,{'account_06'}
+Close my account permanently,account_06,0.4664869082195854,"['account_06', 'tech_08', 'account_09']",True,False,"('account_06',)",False,{'account_06'}
+How do I get a new username,account_10,0.6042060554080039,"['account_10', 'shipping_04', 'account_07']",True,False,"('account_07',)",False,"{'account_10', 'account_07'}"
+Can I rename myself on the site,tech_10,0.400602537174651,['tech_10'],True,False,"('account_07',)",False,"{'account_10', 'account_07'}"
+What cards do you take,shipping_02,0.2740741809837264,"['shipping_02', 'payments_12', 'payments_03']",False,True,"('payments_01',)",False,"{'payments_01', 'payments_09', 'payments_08'}"
+Which payment options are available,payments_09,0.6853166186501085,"['payments_09', 'payments_11', 'payments_07']",True,False,"('payments_01',)",False,"{'payments_01', 'payments_09', 'payments_08'}"
+Add a new credit card to my wallet,payments_02,0.6202587689798148,"['payments_02', 'account_10', 'payments_12']",True,False,"('payments_02',)",False,"{'payments_02', 'payments_10'}"
+Store my card for future use,payments_08,0.4581842935214999,"['payments_08', 'payments_12', 'payments_03']",True,False,"('payments_02',)",False,"{'payments_02', 'payments_10'}"
+My credit card got rejected,payments_02,0.504439968280458,"['payments_02', 'payments_11', 'payments_12']",True,False,"('payments_03',)",False,"{'payments_03', 'payments_11'}"
+Why did my payment not go through,payments_11,0.27003775772602623,"['payments_11', 'payments_07', 'payments_14']",False,True,"('payments_03',)",False,"{'payments_03', 'payments_11'}"
+When do you take the money for an order,orders_02,0.39874676793073693,"['orders_02', 'returns_08', 'shipping_02']",True,False,"('payments_04',)",False,"{'payments_04', 'payments_12'}"
+Am I charged immediately,payments_04,0.5898033434212387,"['payments_04', 'payments_12', 'shipping_11']",True,False,"('payments_04',)",False,"{'payments_04', 'payments_12'}"
+Do you accept PayPal,payments_05,0.41958142376388563,"['payments_05', 'payments_01']",True,False,"('payments_05',)",False,{'payments_05'}
+Can I pay using my PayPal balance,payments_05,0.6804062770540196,"['payments_05', 'payments_08', 'account_11']",True,False,"('payments_05',)",False,{'payments_05'}
+How do I change my billing info,payments_13,0.8062786451145655,"['payments_13', 'account_04', 'account_07']",True,False,"('payments_06',)",False,"{'payments_13', 'payments_06'}"
+Edit my billing address,payments_13,0.6116202191456064,"['payments_13', 'orders_10', 'payments_06']",True,False,"('payments_06',)",False,"{'payments_13', 'payments_06'}"
+Can I pay in installments,payments_05,0.5438802398773854,"['payments_05', 'payments_08']",True,False,"('payments_07',)",False,"{'payments_14', 'payments_07'}"
+Is there a pay later option,payments_05,0.36749515104444047,"['payments_05', 'payments_09', 'payments_08']",True,False,"('payments_07',)",False,"{'payments_14', 'payments_07'}"
+Where can I see the delivery progress for my purchase,orders_12,0.4336537210936139,"['orders_12', 'shipping_11', 'shipping_06']",True,False,"('orders_01', 'orders_02')",False,"{'orders_01', 'orders_02', 'orders_12'}"
+Track my package,orders_01,0.3751818833044858,"['orders_01', 'shipping_07']",True,False,"('orders_01',)",False,"{'orders_01', 'orders_02', 'orders_12'}"
+Where's my order right now,orders_02,1.0,"['orders_02', 'orders_06', 'payments_04']",True,False,"('orders_02',)",False,"{'orders_01', 'orders_02', 'orders_12'}"
+Follow my parcel,orders_12,0.5057784725333172,['orders_12'],True,False,"('orders_02',)",False,"{'orders_01', 'orders_02', 'orders_12'}"
+Can I change my order after paying,orders_03,0.47607910039153495,"['orders_03', 'orders_02', 'payments_05']",True,False,"('orders_03',)",False,"{'orders_10', 'orders_03'}"
+Edit the items in my existing order,orders_10,0.751771469212932,"['orders_10', 'orders_02', 'orders_05']",True,False,"('orders_03',)",False,"{'orders_10', 'orders_03'}"
+I want to cancel my purchase,orders_04,0.4028010244182278,"['orders_04', 'returns_04', 'account_11']",True,False,"('orders_04',)",False,{'orders_04'}
+Undo my order,orders_02,0.5238062136125357,"['orders_02', 'orders_08', 'orders_06']",True,False,"('orders_04',)",False,{'orders_04'}
+I bought the wrong size by accident,returns_05,0.223613684057346,"['returns_05', 'orders_07', 'orders_05']",False,True,"('orders_05',)",False,"{'orders_08', 'orders_05'}"
+The item I received is not what I ordered,orders_02,0.3831090562715673,"['orders_02', 'tech_05', 'returns_07']",True,False,"('orders_05',)",False,"{'orders_08', 'orders_05'}"
+How long until I receive my package,orders_11,0.5991675854250804,"['orders_11', 'returns_03', 'returns_10']",True,False,"('orders_06', 'shipping_02')",False,"{'orders_11', 'orders_06', 'shipping_02'}"
+Estimate the arrival date of my delivery,orders_06,0.4071797020873028,"['orders_06', 'orders_12', 'shipping_11']",True,False,"('orders_06', 'shipping_02')",False,"{'orders_11', 'orders_06', 'shipping_02'}"
+How do I buy the same thing again,orders_09,0.7328942405808991,"['orders_09', 'account_04', 'returns_02']",True,False,"('orders_07',)",False,"{'orders_07', 'orders_09'}"
+Reorder an item from my history,orders_07,0.6794350550877952,"['orders_07', 'returns_02', 'returns_03']",True,False,"('orders_07',)",False,"{'orders_07', 'orders_09'}"
+What do you charge for delivery,shipping_11,0.6363864770697915,"['shipping_11', 'payments_04', 'payments_12']",True,False,"('shipping_01',)",False,"{'shipping_11', 'shipping_01', 'shipping_08'}"
+Shipping fees,shipping_08,0.8035002249533704,"['shipping_08', 'shipping_05', 'shipping_03']",True,False,"('shipping_01',)",False,"{'shipping_11', 'shipping_01', 'shipping_08'}"
+How long is normal delivery time,returns_03,0.4141198812549896,"['returns_03', 'returns_10', 'orders_11']",True,False,"('shipping_02',)",False,{'shipping_02'}
+Standard delivery takes how many days,shipping_02,0.41654970417002457,"['shipping_02', 'orders_12', 'shipping_11']",True,False,"('shipping_02',)",False,{'shipping_02'}
+Can I order from outside the country,orders_02,0.5238062136125357,"['orders_02', 'shipping_09', 'orders_06']",True,False,"('shipping_03',)",False,"{'shipping_03', 'shipping_13'}"
+Do you deliver to Europe,shipping_09,0.5438802398773854,"['shipping_09', 'shipping_10']",True,False,"('shipping_03',)",False,"{'shipping_03', 'shipping_13'}"
+Is shipping free,shipping_05,0.6017429434047237,"['shipping_05', 'shipping_12', 'shipping_04']",True,False,"('shipping_04',)",False,"{'shipping_04', 'shipping_10', 'shipping_12'}"
+How can I get faster shipping,shipping_04,0.46905649762318147,"['shipping_04', 'shipping_05', 'shipping_10']",True,False,"('shipping_04',)",False,"{'shipping_04', 'shipping_10', 'shipping_12'}"
+Which regions do you deliver to,shipping_09,0.5438802398773854,"['shipping_09', 'shipping_10']",True,False,"('shipping_05',)",False,"{'shipping_05', 'shipping_09'}"
+Do you ship to Canada,shipping_05,1.0,"['shipping_05', 'shipping_03', 'shipping_13']",True,False,"('shipping_05',)",False,"{'shipping_05', 'shipping_09'}"
+Fix the address on my shipment,shipping_06,0.6739794609136249,"['shipping_06', 'payments_13', 'account_05']",True,False,"('shipping_06',)",False,{'shipping_06'}
+Edit my delivery location,orders_10,0.3395231965026793,"['orders_10', 'orders_12', 'shipping_11']",False,True,"('shipping_06',)",False,{'shipping_06'}
+My parcel never showed up,shipping_07,0.2882402575467922,"['shipping_07', 'tech_04']",False,True,"('shipping_07',)",False,{'shipping_07'}
+The package is missing,shipping_07,0.4076332814445875,['shipping_07'],True,False,"('shipping_07',)",False,{'shipping_07'}
+Tell me about your return policy,returns_01,0.7949350354764912,"['returns_01', 'general_06', 'general_03']",True,False,"('returns_01',)",False,{'returns_01'}
+What are the conditions for returning,returns_01,0.5094413443571061,"['returns_01', 'returns_02', 'returns_03']",True,False,"('returns_01',)",False,{'returns_01'}
+How do I send an item back,returns_12,0.6588123060825695,"['returns_12', 'returns_10', 'returns_09']",True,False,"('returns_02',)",False,"{'returns_02', 'returns_12'}"
+Returning a product step by step,general_07,0.29754346711763086,"['general_07', 'returns_02', 'returns_12']",False,True,"('returns_02',)",False,"{'returns_02', 'returns_12'}"
+How many days can I return,returns_02,0.3318489719402603,"['returns_02', 'returns_03', 'account_08']",False,True,"('returns_03',)",False,"{'returns_03', 'returns_10'}"
+Return window,returns_02,0.4424143329022094,"['returns_02', 'returns_01', 'returns_03']",True,False,"('returns_03',)",False,"{'returns_03', 'returns_10'}"
+I need my money back,returns_08,0.8851346977164894,"['returns_08', 'returns_10', 'returns_12']",True,False,"('returns_04',)",False,"{'returns_04', 'returns_08'}"
+How can I claim a refund,returns_07,0.480445193709828,"['returns_07', 'returns_11', 'returns_04']",True,False,"('returns_04',)",False,"{'returns_04', 'returns_08'}"
+Swap for another size,returns_05,0.36608849175059716,['returns_05'],True,False,"('returns_05',)",False,{'returns_05'}
+Exchange this item,returns_05,0.572716559405623,"['returns_05', 'returns_02', 'returns_03']",True,False,"('returns_05',)",False,{'returns_05'}
+Can I send back reduced items,returns_10,0.6170634741328549,"['returns_10', 'returns_09', 'returns_12']",True,False,"('returns_06',)",False,"{'returns_09', 'returns_06'}"
+Are discounted products returnable,returns_06,0.40784971596201947,"['returns_06', 'general_04', 'general_07']",True,False,"('returns_06',)",False,"{'returns_09', 'returns_06'}"
+When does the refund hit my account,returns_07,0.4161036304464367,"['returns_07', 'returns_11', 'returns_04']",True,False,"('returns_07',)",False,"{'returns_07', 'returns_11'}"
+Refund processing time,returns_07,0.3777960433002947,"['returns_07', 'returns_11', 'returns_04']",True,False,"('returns_07',)",False,"{'returns_07', 'returns_11'}"
+Is my data protected,security_08,0.7872856313568376,['security_08'],True,False,"('security_01',)",False,"{'security_08', 'security_01'}"
+Do you sell my information,security_01,0.42367952545670123,"['security_01', 'payments_06']",True,False,"('security_01',)",False,"{'security_08', 'security_01'}"
+Turn on two factor authentication,security_02,0.7821101734908387,['security_02'],True,False,"('security_02',)",False,{'security_02'}
+Set up two step verification,security_09,0.2797033111117158,"['security_09', 'security_02']",False,True,"('security_02',)",False,{'security_02'}
+I cannot get into my account,security_10,0.6272523798019011,"['security_10', 'shipping_12', 'returns_04']",True,False,"('security_03',)",False,"{'security_03', 'security_10'}"
+Locked out of my profile,security_03,0.7175097546617043,"['security_03', 'security_05']",True,False,"('security_03',)",False,"{'security_03', 'security_10'}"
+Someone broke into my account,security_11,0.41740214413322574,"['security_11', 'account_09', 'security_04']",True,False,"('security_04',)",False,"{'security_11', 'security_04'}"
+My account was compromised,account_09,0.32701424837539467,"['account_09', 'security_04', 'security_10']",False,True,"('security_04',)",False,"{'security_11', 'security_04'}"
+Log me out from every device,security_05,0.6486664364475105,"['security_05', 'security_03', 'account_08']",True,False,"('security_05',)",False,"{'security_12', 'security_05'}"
+End all my sessions,security_12,0.6872089878448393,"['security_12', 'security_10', 'security_05']",True,False,"('security_05',)",False,"{'security_12', 'security_05'}"
+Why do you want me to verify myself,security_06,0.3395069798658026,"['security_06', 'returns_04', 'account_11']",False,True,"('security_06',)",False,"{'security_06', 'security_09'}"
+I keep getting asked for a verification code,security_09,0.8435321155062855,"['security_09', 'security_06', 'tech_02']",True,False,"('security_06',)",False,"{'security_06', 'security_09'}"
+Where can I forward a fake email,account_09,0.3665157680910283,"['account_09', 'account_05', 'tech_05']",True,False,"('security_07',)",False,{'security_07'}
+Report a phishing email,security_07,0.5156943267866525,"['security_07', 'account_09', 'account_05']",True,False,"('security_07',)",False,{'security_07'}
+How do I talk to a support agent,general_01,0.4162061467465942,"['general_01', 'general_10', 'account_04']",True,False,"('general_01',)",False,{'general_01'}
+Contact customer care,general_01,0.6965197641131039,"['general_01', 'general_02']",True,False,"('general_01',)",False,{'general_01'}
+When are you guys available,,0.0,[],False,True,"('general_02',)",False,"{'general_08', 'general_10', 'general_02'}"
+Support opening hours,general_08,0.7224176221720524,"['general_08', 'general_01', 'general_10']",True,False,"('general_02',)",False,"{'general_08', 'general_10', 'general_02'}"
+Show me your privacy terms,general_03,0.3305804978765726,"['general_03', 'tech_04']",False,True,"('general_03',)",False,{'general_03'}
+Where is the privacy page,general_03,0.3305804978765726,"['general_03', 'tech_04']",False,True,"('general_03',)",False,{'general_03'}
+Any discount for students,general_04,0.787881634298955,"['general_04', 'returns_06']",True,False,"('general_04',)",False,{'general_04'}
+Is there a student offer,general_04,0.615826704791541,"['general_04', 'payments_07', 'payments_09']",True,False,"('general_04',)",False,{'general_04'}
+Join your mailing list,,0.0,[],False,True,"('general_05',)",False,{'general_05'}
+Subscribe to the newsletter,general_05,0.4894679575680451,['general_05'],True,False,"('general_05',)",False,{'general_05'}
+What does your warranty cover,general_09,0.6299393306575696,"['general_09', 'general_06', 'returns_01']",True,False,"('general_06',)",False,"{'general_06', 'general_09'}"
+Is there a guarantee on products,general_07,0.4008436093812179,"['general_07', 'returns_12', 'orders_09']",True,False,"('general_06',)",False,"{'general_06', 'general_09'}"
+Help me find a present for my mom,general_07,0.787881634298955,"['general_07', 'general_03']",True,False,"('general_07',)",False,{'general_07'}
+I do not know what to order,orders_02,0.5416778790486831,"['orders_02', 'tech_01', 'orders_06']",True,False,"('general_07',)",False,{'general_07'}
+What is the weather like today,returns_01,0.3120143948170888,"['returns_01', 'shipping_08', 'account_02']",False,True,(),True,set()
+Tell me a joke,,0.0,[],False,True,(),True,set()
+Who won the football game last night,,0.0,[],False,True,(),True,set()
+What is 25 times 4,general_10,0.5940994496158292,"['general_10', 'account_08', 'payments_10']",True,False,(),True,set()
+Can you recommend a good book to read,,0.0,[],False,True,(),True,set()
+When is the next lunar eclipse,payments_10,0.39884994433680476,['payments_10'],True,False,(),True,set()
+What is my horoscope today,returns_01,0.3120143948170888,"['returns_01', 'shipping_08', 'account_02']",False,True,(),True,set()
+How old is the Eiffel Tower,account_04,0.24350100216488899,"['account_04', 'returns_02', 'account_07']",False,True,(),True,set()
+What does your company do,returns_01,0.3120143948170888,"['returns_01', 'shipping_08', 'account_02']",False,True,(),True,set()
+Thanks for your help,general_07,0.4675114235530992,['general_07'],True,False,(),True,set()
+How long does it take to learn Python,shipping_02,0.5979129789895031,"['shipping_02', 'returns_03', 'returns_10']",True,False,(),True,set()
+Can you predict tomorrow's stock prices,,0.0,[],False,True,(),True,set()
